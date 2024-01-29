@@ -10,7 +10,7 @@ import { isEmpty } from "lodash-es";
 import DOMPurify from 'dompurify';
 
 import styles from "./Chat.module.css";
-import Contoso from "../../assets/Contoso.svg";
+import Telkomsel from "../../assets/Telkomsel.svg";
 import { XSSAllowTags } from "../../constants/xssAllowTags";
 
 import {
@@ -588,7 +588,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={Contoso}
+                                    src={Telkomsel}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
@@ -668,7 +668,7 @@ const Chat = () => {
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)"
+                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #bd0f0f 33.63%, #c32d2d 70.31%, #dd8d8d 100%)"
                                         },
                                         rootDisabled: {
                                             background: "#F0F0F0"
@@ -691,7 +691,7 @@ const Chat = () => {
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)",
+                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #bd0f0f 33.63%, #c32d2d 70.31%, #dd8d8d 100%)",
                                         },
                                         rootDisabled: {
                                             background: "#F0F0F0"
